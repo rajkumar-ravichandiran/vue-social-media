@@ -9,27 +9,36 @@ This project is a simple social media homepage designed using Vue.js. The page d
 - **User Avatars**: Random user avatars are generated using [Picsum.photos](https://picsum.photos/).
 - **User Names**: Each post is associated with a user, and their name is displayed next to their post. The names are mapped to user IDs.
 
-### Installation
+![Vue 3 Social media homepage Project](public/video.gif)
 
-1. Clone this repository:
+### Installation and Setup
 
-   ```bash
-   git clone https://github.com/rajkumar-ravichandiran/vue-social-media.git
+1. Clone the repository to your local machine:
 
-## Project Setup
+    ```bash
+    git clone https://github.com/rajkumar-ravichandiran/vue-social-media.git
+    ```
 
-```sh
-npm install
-```
+2. Navigate to the project directory:
 
-### Compile and Hot-Reload for Development
+    ```bash
+    cd vue-social-media
+    ```
 
-```sh
-npm run dev
-```
+3. Install the dependencies:
 
-### Compile and Minify for Production
+    ```sh
+   npm install
+   ```
 
-```sh
-npm run build
-```
+4. Compile and Hot-Reload for Development:
+
+    ```sh
+   npm run dev
+   ```
+
+4. Compile and Minify for Production:
+
+    ```sh
+   npm run build
+   ```

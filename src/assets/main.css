@@ -1,0 +1,126 @@
+@import './base.css';
+
+#app {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem 0;
+  font-weight: normal;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: #2c3e50;
+  background-color: #333;
+}
+header{
+  text-align: center;
+}
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+.feed {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-y: auto;
+  height: calc(100vh - 110px);
+  -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.feed::-webkit-scrollbar{
+  display: none;
+}
+
+.post {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.post-title {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.post-body {
+  margin-top: 10px;
+}
+
+.comments {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.comment {
+  margin-top: 10px;
+}
+
+.comment-header {
+  font-weight: bold;
+}
+
+.comment-email {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.comment-body {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #333;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color:#34495e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #131f2b;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0 20px;
+  color: #41b883;
+}
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+}
